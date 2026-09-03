@@ -1,0 +1,414 @@
+ALL THE PROMPTS
+
+
+1. User Story → Test Cases
+
+Act as a Senior QA Automation Engineer. Analyze the software requirement/user story provided below and generate a comprehensive set of automation test cases.
+
+For each test case, provide:
+
+Test Case ID
+Test Scenario/Title
+Preconditions
+Test Data
+Detailed Test Steps
+Expected Result
+Priority (Critical/High/Medium/Low)
+Test Type (Positive/Negative/Boundary/Validation)
+Automation Feasibility (Automatable/Partially Automatable/Not Automatable)
+
+Ensure the test cases provide complete functional coverage, including positive, negative, boundary and validation scenarios.
+
+2. Requirements Traceability Matrix — RTM
+
+Create a professional Requirements Traceability Matrix (RTM) from the requirements/user stories provided.
+
+Use exactly one row per explicitly provided requirement/user story. Do not create separate requirement rows for acceptance criteria unless explicitly instructed.
+
+Include:
+
+Requirement ID
+Requirement/User Story
+Acceptance Criteria
+Test Case ID(s)
+Test Scenario
+Priority
+Test Type
+Test Status
+Defect ID(s), if applicable
+Traceability/Remarks
+
+Keep the RTM concise, professional and suitable for QA documentation.
+
+3. Screenshot → Identify Fields
+
+Analyze the provided screenshot and identify all visible input fields, buttons, dropdowns, links and other interactive UI elements.
+
+For each element, provide:
+
+Element Name
+Element Type
+Purpose
+Expected Input/Behavior
+Validation Requirements, if visible or inferable from the UI
+
+Do not invent elements that are not visible in the screenshot.
+
+4. Test Data Generation
+
+Generate suitable fictitious test data for the provided test scenarios.
+
+Include valid, invalid, negative, boundary and special-character data wherever applicable.
+
+Use realistic but completely fictitious data.
+
+Do not use real people's personal information, real financial information, passwords, phone numbers or other sensitive data.
+
+Map each dataset to the relevant test case/scenario and clearly explain which data should be used.
+
+5. Website Test Scenarios + Test Data
+
+Analyze the provided website/application and generate comprehensive QA test scenarios covering its major functionality.
+
+For each scenario provide:
+
+Scenario ID
+Module/Feature
+Test Scenario
+Preconditions
+Test Data
+Expected Result
+Priority
+Test Type
+
+Cover positive, negative, boundary and validation scenarios and prioritize critical business workflows.
+
+6. Create Excel QA Workbook
+
+Create a professional Excel workbook containing the QA artifacts generated for this application.
+
+Organize the workbook into appropriate sheets such as:
+
+Requirements / RTM
+Test Scenarios
+Test Cases
+Test Data
+Defects, if applicable
+
+Use clear headers, consistent formatting, readable column widths, filters and professional QA terminology.
+
+Do not alter the underlying test information while formatting it.
+
+7. Screenshot → Full Test Cases
+
+Analyze the provided screenshot and create detailed manual test cases for all relevant visible functionality.
+
+For each test case include:
+
+Test Case ID
+Module
+Test Scenario
+Preconditions
+Test Data
+Test Steps
+Expected Result
+Priority
+Test Type
+
+Cover positive, negative, boundary and validation scenarios wherever applicable.
+
+Do not invent UI elements that are not supported by the screenshot.
+
+8. Test Plan — Tricentis Demo Web Shop
+
+Create a professional Test Plan for the Tricentis Demo Web Shop.
+
+Application URL: https://demowebshop.tricentis.com/login
+
+Cover:
+
+Test Plan Objective
+Application Overview
+Scope
+Features to be Tested
+Features Not to be Tested
+Testing Approach
+Testing Types
+Test Environment
+Test Data
+Tools
+Roles and Responsibilities
+Test Schedule
+Entry Criteria
+Exit Criteria
+Risks and Mitigation
+Test Deliverables
+Defect Management
+Reporting
+Approval/Sign-off
+
+Tailor all content specifically to the Tricentis Demo Web Shop and use professional QA terminology.
+
+Create the final document as a professional Word file.
+
+9. Test Strategy vs Test Plan — Tricentis Demo Web Shop
+
+Use the attached Testomat.io article as the primary reference and create a Test Strategy vs Test Plan comparison specifically for the Tricentis Demo Web Shop.
+
+Preserve the reference's terminology and key distinction:
+
+Test Strategy = high-level overall testing direction, principles and framework.
+Test Plan = project-specific execution details.
+
+Compare them using:
+
+Purpose
+Focus
+Detail Level
+Includes
+Application Scope
+Testing Approach
+Automation
+Environment
+Tools
+Risk Management
+Ownership
+Timeline
+Documentation Hierarchy
+Example
+Final Output
+
+Present the result as a professional QA comparison table.
+
+10. Test Strategy — Tricentis Demo Web Shop
+
+Using the attached Testomat.io reference as the primary source, create a Test Strategy for the Tricentis Demo Web Shop.
+
+Keep the Test Strategy at a high-level strategic level. Do not turn it into a Test Plan, test execution report or individual test cases.
+
+Cover the following strategic components:
+
+Test Objectives
+Overall Testing Approach
+Testing Types
+Tools & Testing Environment
+Roles & Responsibilities
+Risk Management
+Entry & Exit Criteria
+
+Tailor the content to the Tricentis Demo Web Shop while preserving the concepts and terminology from the reference.
+
+11. Test Strategy Report — Final Version
+
+Create a professional Test Strategy Report for the Tricentis Demo Web Shop using the attached Testomat.io reference as the primary source.
+
+This must be a REPORT, not a Test Plan and not a Test Strategy vs Test Plan comparison.
+
+Use a formal QA report structure and include:
+
+Executive Summary
+Test Objectives
+Scope of Testing
+Overall Testing Approach
+Testing Types
+Tools & Testing Environment
+Roles & Responsibilities
+Risk Management
+Test Data Strategy
+Entry Criteria
+Exit Criteria
+Defect Management Principles
+Reporting & Quality Metrics
+Governance & Maintenance
+Conclusion
+
+Use the Testomat.io reference for the underlying Test Strategy concepts and terminology.
+
+Tailor the report to the Tricentis Demo Web Shop.
+
+Keep it strategic and high-level. Do not create individual test cases or detailed execution steps.
+
+Do not invent unavailable project-specific information. Where exact information is unavailable, state that it is to be defined in the relevant project documentation.
+
+Use professional QA terminology and create the final output as a properly formatted Microsoft Word (.docx) report.
+
+12. Manual Defect Finding — SauceDemo
+
+Act as a Senior QA Engineer and manually analyze the SauceDemo website for potential defects.
+
+Identify functional, UI, usability, validation and other relevant defects that can be reproduced through manual testing.
+
+For each potential defect provide:
+
+Bug ID
+Bug Title
+Module/Feature
+User/Persona, if relevant
+Steps to Reproduce
+Expected Result
+Actual Result
+Severity
+Priority
+
+Do not assume that every unexpected result is an application defect. Distinguish application defects from automation issues, test-data issues, environment issues and other possible causes.
+
+Focus on defects that can be manually reproduced and provide clear reproduction steps.
+
+13. SauceDemo Defect Report — Final Format
+
+Act as a Senior QA Engineer and create professional defect reports for the confirmed SauceDemo defects.
+
+Use exactly the following fields:
+
+Bug ID:
+Requirement ID:
+Test Case ID:
+Bug Title:
+Module:
+Feature:
+Environment:
+Build/Version:
+Browser:
+Severity:
+Priority:
+Defect Type:
+Preconditions:
+Test Data:
+Steps to Reproduce:
+Expected Result:
+Actual Result:
+Error Message:
+Evidence:
+Status:
+Confidence Level:
+
+Use only these defect classifications:
+
+Application Defect
+Automation Defect
+Test Data Issue
+Environment/Infrastructure Issue
+Network/API Issue
+Configuration Issue
+Requirement/Test Case Issue
+Unknown/Insufficient Evidence
+
+Rules:
+
+Do not assume a defect exists only because a test failed.
+First classify the failure.
+Distinguish application defects from automation failures.
+Do not invent missing information.
+If information is unavailable, write "Not Available".
+Steps must be clear and reproducible.
+Expected and Actual Results must be clearly separated.
+Assign Severity based on business/technical impact.
+Assign Priority based on urgency and release impact.
+Use professional defect-management terminology.
+Provide a Confidence Level for every defect classification.
+Use High confidence only when the evidence supports a confirmed/high-confidence classification.
+14. Test Execution Report
+
+Create a professional Test Execution Report using the following execution data.
+
+Project: E-Commerce Application
+Application: Online Shopping Website
+Test Cycle: Regression Testing
+Environment: QA
+Execution Date: 02-Sep-2026
+Tester: AI Testing Agent
+
+Overall Status: PARTIALLY PASSED
+
+Execution Summary:
+Total Test Cases: 20
+Executed: 20
+Passed: 16
+Failed: 3
+Blocked: 1
+Skipped: 0
+Pass Percentage: 80%
+
+Test Results:
+
+TC-001 – Valid Login – PASS
+TC-002 – Invalid Login – PASS
+TC-003 – Empty Username – PASS
+TC-004 – Empty Password – PASS
+TC-005 – Search Product – PASS
+TC-006 – Add Product to Cart – PASS
+TC-007 – Remove Product from Cart – PASS
+TC-008 – Update Cart Quantity – FAIL – Quantity not updated correctly
+TC-009 – Checkout – PASS
+TC-010 – Place Order – FAIL – Order submission failed
+TC-015 – Automation-related Test – FAIL – Locator was not found
+
+Failure Analysis:
+
+TC-008: Application Defect – Medium
+TC-010: Application Defect – High
+TC-015: Automation Defect – Low
+
+Defect Summary:
+
+Critical: 0
+High: 1
+Medium: 1
+Low: 1
+Total: 3
+
+Include:
+
+Executive summary
+Execution summary
+Test results
+Failure analysis
+Defect summary
+QA assessment
+Release recommendation
+
+The final conclusion should reflect that the cycle is PARTIALLY PASSED and release is Not Recommended because of the high-severity defect.
+
+Create the report as a professional Word document.
+
+15. Prompt — Playwright Project Setup
+
+I have already created a Python virtual environment (venv) and a .env file for my QA automation project.
+
+Explain step-by-step how to add/install Playwright for Python into this existing project.
+
+Show:
+
+How to activate the virtual environment
+How to install Playwright
+How to install the required Playwright browsers
+Recommended project folder structure
+How to create a basic Playwright test
+How to execute the test
+How to generate/update requirements.txt
+
+Make it suitable for a beginner setting up a professional QA automation project in VS Code on Windows.
+
+Also clarify that Playwright should be installed as a Python package in the virtual environment rather than manually placing Playwright files inside a project folder.
+
+16. Prompt — Create the Test Strategy Word File
+
+Take the finalized Tricentis Demo Web Shop Test Strategy Report and create it as a professionally formatted .docx file.
+
+Do not change the content or convert it into a comparison or Test Plan.
+
+Use a formal report layout with:
+
+Title
+Application name
+Document metadata
+Numbered sections
+Professional headings
+Tables where appropriate
+Consistent fonts and spacing
+Footer
+Professional QA documentation formatting
+
+Save it as:
+
+Tricentis_Demo_Web_Shop_Test_Strategy_Report.docx
