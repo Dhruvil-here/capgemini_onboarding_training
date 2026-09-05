@@ -1,0 +1,39 @@
+I have attached a Test Case Template spreadsheet (same format as the Katalon template shown in the image).
+
+Create a new Excel spreadsheet using the exact same structure, formatting, headers, colors, and layout, but populate it with test cases for the Credit Card Payment Flow page shown in the attached screenshot.
+
+Requirements:
+- Maintain the same test case template design.
+- Fill in Project Name, Priority, Description, and Test Objective.
+- Generate comprehensive functional, validation, negative, UI, and security test cases.
+- Include columns:
+  Test Case ID,
+  Test Steps,
+  Input Data,
+  Expected Results,
+  Actual Results,
+  Test Environment,
+  Execution Status,
+  Bug Severity,
+  Bug Priority,
+  Notes.
+- Create at least 25 detailed test cases covering:
+  - Successful payment
+  - Invalid card number
+  - Invalid CVV
+  - Expired card
+  - Empty mandatory fields
+  - Cardholder name validation
+  - Different card types (Visa, Mastercard, Amex)
+  - Save card functionality
+  - Payment failure scenarios
+  - Network interruption
+  - Session timeout
+  - Duplicate payment prevention
+  - Mobile responsiveness
+  - Error message validation
+  - Security and PCI-related checks
+
+Output:
+- Generate and provide the completed Excel (.xlsx) file.
+- Ensure the spreadsheet looks professional and closely matches the original template.
